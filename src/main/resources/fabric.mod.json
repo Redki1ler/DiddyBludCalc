@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "diddybludcalc",
+	"version": "${version}",
+	"name": "DiddyBludCalc",
+	"description": "A mod where you use a calculator in only a way a diddy blud would",
+	"authors": [
+		"_red1"
+	],
+	"contact": {
+		"homepage": "https://skyslipstudios.wixsite.com/skyslip-studios",
+		"sources": "https://skyslipstudios.wixsite.com/skyslip-studios"
+	},
+	"license": "MIT",
+	"icon": "assets/diddybludcalc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.red.diddybludcalc.DiddyBludCalc"
+		],
+		"fabric-datagen": [
+			"com.red.diddybludcalc.DiddyBludCalcDataGenerator"
+		],
+		"client": [
+			"com.red.diddybludcalc.DiddyBludCalcClient"
+		]
+	},
+	"mixins": [
+		"diddybludcalc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
