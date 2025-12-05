@@ -1,5 +1,6 @@
 package com.red.diddybludcalc;
 
+import com.red.diddybludcalc.block.ModBlocks;
 import com.red.diddybludcalc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class DiddyBludCalc implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

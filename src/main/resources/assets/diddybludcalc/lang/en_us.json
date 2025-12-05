@@ -2,5 +2,9 @@
   "item.diddybludcalc.pink_garnet": "Pink Garnet",
   "item.diddybludcalc.raw_pink_garnet": "Raw Pink Garnet",
   "item.diddybludcalc.raw_foreskin": "Foreskin",
-  "item.diddybludcalc.calculator": "Calculator"
+  "item.diddybludcalc.calculator": "Calculator",
+
+  "block.diddybludcalc.pink_garnet_block": "Block of Pink Garnet",
+  "block.diddybludcalc.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.diddybludcalc.raw_pink_garnet_ore": "Raw Pink Garnet Ore"
 }
